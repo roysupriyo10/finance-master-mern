@@ -1,4 +1,6 @@
-declare module "@mui/material/styles/createPalette" {
+// import { Palette, PaletteColor, TypeBackground } from "@mui/material/styles"
+
+declare module "@mui/material/styles" {
   interface PaletteColor {
     [key: number]: string;
   }
